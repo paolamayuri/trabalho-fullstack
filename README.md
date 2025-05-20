@@ -24,31 +24,31 @@ Criar uma aplicação desktop com:
     "password": "texto_puro"
   }
   
-Frontend (React + Axios + Electron)
+## Frontend (React + Axios + Electron)
 - Tela de cadastro com campos de e-mail e senha
 - Tela de login
 - Token salvo no localStorage
 - Dashboard acessada apenas após login
 - Axios configurado para enviar token no header Authorization
 
-🧪 Atividades Práticas
+## 🧪 Atividades Práticas
 ✅ Criar tela de registro
 ✅ Criar tela de login com redirecionamento após sucesso
 ✅ Criar middleware no backend que verifica o token
 ✅ Na tela protegida, buscar dados com o token salvo
 ✅ Implementar logout
 
-🛡️ Dicas de Segurança
+## 🛡️ Dicas de Segurança
 Nunca salve senha em texto puro em produção (use bcrypt)
 O token deve ser armazenado com cuidado (localStorage, secureStorage)
 Rotas protegidas devem sempre verificar o token
 
-📦 Tecnologias Utilizadas
+## 📦 Tecnologias Utilizadas
 Frontend	- React · Axios · Electron
 Backend	- Node.js · Express
 Persistência - Arquivo JSON ou in-memory
 
-🚀 Como Rodar o Projeto
+## 🚀 Como Rodar o Projeto
 
 1. Clone o repositório
 
